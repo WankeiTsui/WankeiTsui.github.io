@@ -1,1 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yunqi Xu - Academic Homepage</title>
+    <style>
+        :root {
+            color-scheme: light;
+            --bg: #ffffff;
+            --ink: #222222;
+            --muted: #555555;
+            --line: #eaeaea;
+            --accent: #1d4ed8;
+        }
 
+        body {
+            font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg);
+            color: var(--ink);
+            max-width: 780px;
+            margin: 60px auto;
+            padding: 0 24px;
+            line-height: 1.65;
+            font-size: 16px;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 40px;
+        }
+
+        .bio-text h1 {
+            margin: 0 0 6px 0;
+            font-size: 32px;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+        }
+
+        .bio-text p {
+            margin: 0 0 6px 0;
+            color: var(--muted);
+        }
+
+        .links {
+            margin-top: 10px;
+        }
+
+        .avatar img {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 1px solid var(--line);
+        }
+
+        h2 {
+            margin-top: 48px;
+            margin-bottom: 16px;
+            font-size: 20px;
+            font-weight: 600;
+            border-bottom: 1px solid var(--line);
+            padding-bottom: 6px;
+        }
+
+        p, li {
+            color: var(--ink);
+            margin-bottom: 12px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .publication-item {
+            margin-bottom: 20px;
+        }
+
+        .footer {
+            margin-top: 80px;
+            font-size: 14px;
+            color: var(--muted);
+            border-top: 1px solid var(--line);
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="bio-text">
+            <h1>Yunqi Xu</h1>
+            <p>Ph.D. Student / Researcher at Your University</p>
+            <p>Email: your.email [AT] domain.com</p>
+            <div class="links">
+                <a href="#">CV</a> / 
+                <a href="#">Google Scholar</a> / 
+                <a href="#">GitHub</a> / 
+                <a href="#">Twitter</a> / 
+                <a href="#">LinkedIn</a>
+            </div>
+        </div>
+        <div class="avatar">
+            <img src="https://via.placeholder.com/140" alt="Profile Picture">
+        </div>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p>
+            I am a first-year Ph.D. student at <a href="#">Your University</a>, advised by <a href="#">Prof. Advisor Name</a>. Prior to that, I received my B.S. degree from <a href="#">Your Previous University</a>.
+        </p>
+        <p>
+            My research interests lie in machine learning, robotics, and computer vision. Currently, I am focusing on building intelligent systems that can interact with the physical world safely and efficiently.
+        </p>
+    </section>
+
+    <section>
+        <h2>News</h2>
+        <ul>
+            <li><strong>[2026.06]</strong> One paper accepted by CVPR 2026!</li>
+            <li><strong>[2026.01]</strong> Started my new research journey at University.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Publications</h2>
+        
+        <div class="publication-item">
+            <p>
+                <strong>Your Paper Title: A Novel Method for Generalizable Robotics</strong><br>
+                <strong>Your Name</strong>, Co-author Name, Advisor Name<br>
+                <em>Conference on Computer Vision and Pattern Recognition (CVPR), 2026</em><br>
+                <a href="#">[Paper]</a> <a href="#">[Code]</a> <a href="#">[Project Page]</a> <a href="#">[BibTeX]</a>
+            </p>
+        </div>
+
+        <div class="publication-item">
+            <p>
+                <strong>Another Paper Title: Efficient Learning in Simulation</strong><br>
+                Co-author Name, <strong>Your Name</strong>, Advisor Name<br>
+                <em>Robotics: Science and Systems (RSS), 2025</em><br>
+                <a href="#">[Paper]</a> <a href="#">[Code]</a> <a href="#">[Project Page]</a>
+            </p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Experience</h2>
+        <ul>
+            <li><strong>Research Intern</strong>, AI Research Lab (Summer 2025)</li>
+            <li><strong>Teaching Assistant</strong>, Introduction to Computer Science (Fall 2024)</li>
+        </ul>
+    </section>
+
+    <div class="footer">
+        <p>&copy; 2026 Your Name. Powered by GitHub Pages.</p>
+    </div>
+
+</body>
+</html>
